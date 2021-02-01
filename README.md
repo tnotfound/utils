@@ -1,6 +1,6 @@
 # utils
 Codes for  specific use 
 
-|name|use|
+|<b>name</b>|<b>use</b>|
 | --- | ------- |
 |image|Image processing
