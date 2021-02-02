@@ -6,9 +6,9 @@ import torchvision.transforms as transforms
 def plot_transform(path):
     img = Image.open(path)
     img_transform = transform(img)
-    img = np.transpose(img_transform, (1, 2, 0))
-    img.shape
-    plt.imshow(img)
+    img_transform = np.transpose(img_transform, (1, 2, 0))
+    img = np.transpose(img, (1, 2, 0))
+    plt.imshow(img_transform)
     
 
 # 前処理内容を設定
