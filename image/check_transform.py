@@ -31,4 +31,4 @@ img = Image.open(path)
 plt.imshow(img)
 
 # 前処理して画像表示
-plot_transform(url)
+plot_transform(path)
