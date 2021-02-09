@@ -33,7 +33,7 @@ torch.from_numpy(arr)
 ------------------------------
 
 
------- PyTorch -> Numpy ------
+------ PyTorch -> PIL ------
 import torch
 import torchvision
  
