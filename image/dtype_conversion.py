@@ -6,6 +6,7 @@ img = Image.opne('img.jpg')
 transforms.functional.to_tensor(img)
 ----------------------------
 
+
 ------- PIL -> NumPy -------
 import numpy as np
 from PIL import Image
